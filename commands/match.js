@@ -35,46 +35,6 @@ module.exports = {
                 message.channel.send(mapEmbed);
         }
 
-        return
-
-        /*
-        let mapEmbed = new Discord.MessageEmbed()
-            .setColor('#e6649e')
-            .setTitle("Similar maps: ")
-            .setAuthor(message.author.username, message.author.displayAvatarURL([format='png',dynamic=true]))
-            .setThumbnail("https://i.imgur.com/KvWkqcf.png")
-            .addFields(
-                { name: '\u200B', value: '\u200B' }, 
-                { name: data[0].Title + " / " + data[0].DifficultyName, value: data[0].MapLink },
-                { name: "Artist:",     value: data[0].Artist, inline:true },
-                { name: "Mapped By:",  value: data[0].Mapper, inline:true },
-                { name: "AR / BPM", value: Math.round(data[0].AR * 10)/10+" / "+data[0].Bpm+"BPM"},
-                { name: '\u200B', value: '\u200B' }, 
-                { name: data[1].Title + " / " + data[1].DifficultyName, value: data[1].MapLink },
-                { name: "Artist:",     value: data[1].Artist, inline:true },
-                { name: "Mapped By:",  value: data[1].Mapper, inline:true },
-                { name: "AR / BPM", value: Math.round(data[1].AR * 10)/10+" / "+data[1].Bpm+"BPM"},
-                { name: '\u200B', value: '\u200B' },
-                { name: data[2].Title + " / " + data[2].DifficultyName, value: data[2].MapLink },
-                { name: "Artist:",     value: data[2].Artist, inline:true },
-                { name: "Mapped By:",  value: data[2].Mapper, inline:true },
-                { name: "AR / BPM", value: Math.round(data[2].AR * 10)/10+" / "+data[2].Bpm+"BPM"},
-                { name: '\u200B', value: '\u200B' },
-                { name: data[3].Title + " / " + data[3].DifficultyName, value: data[3].MapLink },
-                { name: "Artist:",     value: data[3].Artist, inline:true },
-                { name: "Mapped By:",  value: data[3].Mapper, inline:true },
-                { name: "AR / BPM", value: Math.round(data[3].AR * 10)/10+" / "+data[3].Bpm+"BPM"},
-                { name: '\u200B', value: '\u200B' },
-                { name: data[4].Title + " / " + data[4].DifficultyName, value: data[4].MapLink },
-                { name: "Artist:",     value: data[4].Artist, inline:true },
-                { name: "Mapped By:",  value: data[4].Mapper, inline:true },
-                { name: "AR / BPM", value: Math.round(data[4].AR * 10)/10+" / "+data[4].Bpm+"BPM"},
-            )
-            .setTimestamp()
-            .setFooter('Made by ')
-
-        return message.channel.send(mapEmbed);*/
-
-
+        return;
     }
 }
