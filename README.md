@@ -18,7 +18,6 @@
 - Add your token / Set your Prefix
 - Go back to cmd and type 'node index.js'
 - Invite link should send in cmd
-- Open the link in broswer and replace the numbers after 'client_id=' to your client ID from your Discord application 
 ---
 ### Usage: 
 - "{prefix}match <beatmap link or id> <# of beatmaps>" Up to 50 beatmaps can be sent.
@@ -28,4 +27,4 @@
 ---
 ### Issues: 
 - Length format is wrong (and slightly inaccurate)
-- Error message does not send for some reason
+- ~~Error message does not send for some reason~~
