@@ -11,10 +11,13 @@
 - Open CMD
 - 'cd bot_directory_folder' (wherever folder you want)
 - 'npm install'
+- Now go to the [Discord Developer Portal](https://discord.com/developers/applications) and create an application
+- Go to Bot -> Create the bot, and copy your Token (make sure no one else but you sees it)
 - Go back to your bot folder, open config.json
 - Add your token / Prefix
 - Go back to cmd and type 'node index.js'
 - Invite link should send in cmd
+- Replace the numbers after 'client_id=' to your client ID from your application
 
 ### Usage
 - "{prefix}match <beatmap link or id> <# of beatmaps>" Up to 50 beatmaps can be sent.
