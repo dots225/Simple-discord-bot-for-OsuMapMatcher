@@ -3,14 +3,14 @@ const fetch = require('node-fetch');
 module.exports = {
     name: "match",
     args: true,
-    usage: '<beatmap link>, <count> (1-50 maps)',
+    usage: '<beatmap link>, <count> (1-10 maps)',
     async execute(message, args) {
         var beatmapUrl = args[0];
         var urlArray = beatmapUrl.replace(/\s*$/,'').split('/');
         beatmapID = urlArray[5]
 
         let count = args[1];
-        if (count >= 50) return;
+        if (count > 10) return;
 
         const data = await fetch(`https://omm.xarib.ch/api/knn/search?id=${beatmapID}&count=${count}`).then(response => response.json());
 
