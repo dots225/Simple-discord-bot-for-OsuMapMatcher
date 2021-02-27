@@ -26,3 +26,7 @@
   > Also: I've discovered that some beatmap links / ID's just don't work, I'm going to assume that it's an API issue, so some maps might not work at all.
 
 My discord if you need help getting it running: Caleb#4356
+
+### Issues:
+- Length format is wrong (and slightly inaccurate)
+- Error message does not send for some reason
