@@ -31,7 +31,7 @@ module.exports = {
                 { name: "Length:", value: Math.round(data[i].Length * 100) / 100},
                 { name: '\u200B', value: '\u200B' } )
                 .setTimestamp()
-                .setFooter('Made by dots225 on Github','https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png')
+                .setFooter('Uses Osu Map Matcher API by Xarib','https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png')
                 message.channel.send(mapEmbed);
         }
 
