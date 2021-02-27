@@ -6,7 +6,7 @@
 ![image](https://user-images.githubusercontent.com/79728151/109369650-c1e3ec00-7862-11eb-9c57-08c0d5946c9b.png)
 > Ignore the bot avatar, you can change it when creating the Bot application.
 
-## Installation
+## Installation (You do not need to have the original osu map matcher program installed btw)
 - Download repository
 - Open CMD
 - 'cd bot_directory_folder' (wherever folder you want)
