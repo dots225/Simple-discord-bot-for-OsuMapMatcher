@@ -27,6 +27,6 @@
 
 My discord if you need help getting it running: Caleb#4356
 
-### Issues:
+### Issues
 - Length format is wrong (and slightly inaccurate)
 - Error message does not send for some reason
