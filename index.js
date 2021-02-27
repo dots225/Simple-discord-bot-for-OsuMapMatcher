@@ -1,6 +1,7 @@
 const Discord = require('discord.js');
 const config = require('./config.json')
 const fs = require('fs');
+const chalk = require('chalk');
 
 const client = new Discord.Client();
 client.commands = new Discord.Collection();
@@ -13,10 +14,12 @@ for (const file of commandFiles) {
 
 client.once('ready', () => {
     client.user.setActivity(`${config.prefix}match <beatmap> | ‎‎currently finding all 1-2 maps...`);
-    console.log("Ready!");
-    console.log("https://discord.com/oauth2/authorize?client_id=CLIENTIDGOESHERE&scope=bot");
+    console.log(chalk.green("Ready!"));
 })
 
+client.generateInvite({ permissions: ['MANAGE_MESSAGES'], }).then(link => console.log("Invite link: "+chalk.blue(link))).catch(error => {
+    console.log(chalk.red(error));
+});
 client.on('message', async message => {
     if (!message.content.startsWith(config.prefix) || message.author.bot) return;
 
@@ -25,7 +28,8 @@ client.on('message', async message => {
     
     const command = client.commands.get(commandName);
 
-    if (command.args && !args.length) {
+    try {
+        if(command.args && !args.length) {
         let reply = `You did not provide any arugments, ${message.author}!`;
 
         if (command.usage) {
@@ -33,12 +37,14 @@ client.on('message', async message => {
         }
 
         return message.channel.send(reply);
+        }
+    }catch {
+        message.react('❓');
     }
 
     try {
         command.execute(message, args);
-    }catch(error) {
-        console.log(error);
+    }catch {
         message.react('❓');
     }
 })
