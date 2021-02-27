@@ -19,4 +19,4 @@
 ### Usage
 - "{prefix}match <beatmap link or id> <# of beatmaps>" Up to 50 beatmaps can be sent.
   #### :warning: Note: Due to the nature of Discord's anti-spam, the bot might pause between each batch of messages (example: it will send a few messages, pause, then send more).
-  
+  > Also: I've discovered that some beatmap links / ID's just don't work, I'm going to assume that it's an API issue, so some maps might not work at all.
