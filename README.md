@@ -5,8 +5,9 @@
 
 ![image](https://user-images.githubusercontent.com/79728151/109369650-c1e3ec00-7862-11eb-9c57-08c0d5946c9b.png)
 > Ignore the bot avatar, you can change it when creating the Bot application.
-
-## Installation (You do not need to have the original osu map matcher program installed btw)
+---
+## Installation:
+> You do not need to have the original osu map matcher program installed btw
 - Download repository
 - Open CMD
 - 'cd bot_directory_folder' (wherever folder you want)
@@ -18,15 +19,13 @@
 - Go back to cmd and type 'node index.js'
 - Invite link should send in cmd
 - Open the link in broswer and replace the numbers after 'client_id=' to your client ID from your Discord application 
-
-### Usage
+---
+### Usage: 
 - "{prefix}match <beatmap link or id> <# of beatmaps>" Up to 50 beatmaps can be sent.
 - Example: '!match https://osu.ppy.sh/beatmapsets/39804#osu/129891 5'  Will send 5 similar beatmaps 
   #### :warning: Note: Due to the nature of Discord's anti-spam, the bot might pause between each batch of messages (example: it will send a few messages, pause, then send more).
   > Also: I've discovered that some beatmap links / ID's just don't work, I'm going to assume that it's an API issue, so some maps might not work at all.
-
-My discord if you need help getting it running: Caleb#4356
-
-### Issues
+---
+### Issues: 
 - Length format is wrong (and slightly inaccurate)
 - Error message does not send for some reason
