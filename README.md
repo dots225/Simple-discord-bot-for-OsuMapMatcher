@@ -14,7 +14,7 @@
 - Now go to the [Discord Developer Portal](https://discord.com/developers/applications) and create an application
 - Go to Bot -> Create the bot, and copy your Token (make sure no one else but you sees it)
 - Go back to your bot folder, open config.json
-- Add your token / Prefix
+- Add your token / Set your Prefix
 - Go back to cmd and type 'node index.js'
 - Invite link should send in cmd
 - Open the link in broswer and replace the numbers after 'client_id=' to your client ID from your Discord application 
