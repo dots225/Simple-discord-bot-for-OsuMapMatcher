@@ -14,7 +14,7 @@ for (const file of commandFiles) {
 client.once('ready', () => {
     client.user.setActivity(`${config.prefx}match <beatmap> | ‎‎currently finding all 1-2 maps...`);
     console.log("Ready!");
-    console.log("https://discord.com/oauth2/authorize?client_id=814919450993754172&scope=bot");
+    console.log("https://discord.com/oauth2/authorize?client_id=CLIENTIDGOESHERE&scope=bot");
 })
 
 client.on('message', async message => {
