@@ -3,8 +3,8 @@
 >Very simple and basic discord bot for [Xarib's OsuMapMatcher](https://github.com/Xarib/OsuMapMatcher). Built in a day, only has 1 command. This is my first time using github and 
 >uploading a discord bot, so feel free to tell me anything. Uses discord.js, Node.js (v12.13.1), and Xarib's API with node-fetch.
 
-![image](https://user-images.githubusercontent.com/79728151/109368042-64996c00-785d-11eb-98b8-3e59acc36c0d.png)
-
+![image](https://user-images.githubusercontent.com/79728151/109368130-b215d900-785d-11eb-979d-437b8e1f22f7.png)
+> Ignore the bot avatar, you can change it when creating the Bot application.
 
 ## Installation
 - Download repository
